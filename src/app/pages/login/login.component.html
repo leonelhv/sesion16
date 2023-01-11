@@ -55,4 +55,10 @@
       Submit
     </button>
   </form>
+  <p
+    class="text-red-500 mt-4 text-center"
+    *ngIf="!userValid && formUser.submitted"
+  >
+    Credenciales Incorrectas
+  </p>
 </div>
