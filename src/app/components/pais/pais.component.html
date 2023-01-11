@@ -1,2 +1,10 @@
-<img class="w-44" [src]="paises[rutaActual].img" alt="" />
-<p>{{ paises[rutaActual].texto }}</p>
+<div class="">
+  <h3 class="font-semibold text-xl">
+    Nombre del país:
+    <span class="font-normal">{{ paises[rutaActual].nombre }}</span>
+  </h3>
+  <img class="w-44" [src]="paises[rutaActual].img" alt="" />
+
+  <h3 class="font-semibold text-xl">Datos Generales:</h3>
+  <p>{{ paises[rutaActual].texto }}</p>
+</div>
